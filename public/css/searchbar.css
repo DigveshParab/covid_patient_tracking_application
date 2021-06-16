@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(253, 249, 249);
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+
+.search-container{
+    width: 100%;
+    
+}
+.search-box{
+    width: 80%;
+    height: auto;
+    margin: 10em auto auto auto;
+    background: wheat;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px lightcoral;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs label{
+    margin: 1em auto .5em auto;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.search-bar{
+    width: 60%;
+    padding: .3em;
+    border: lightcoral 2px solid;
+    text-align: center;
+}
+.search-bar:hover{
+    border: 3px solid lightcoral;
+}
+.search-bar::placeholder{
+  text-align: center;
+}
+.inputs button{
+    width: 40%;
+    border-radius: .5em;
+    margin: .5em auto 1em auto;
+    padding: .5em;
+    outline: none;
+    border: lightcoral 2px solid;
+    background-color: wheat;
+    font-size: .9em;
+    color: rgb(43, 41, 41);
+    font-weight: bold;
+}
+.inputs button:hover{
+    border: lightcoral 3px solid;
+}

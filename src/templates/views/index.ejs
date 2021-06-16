@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="display_card">
+            <div class="current_report">
+                    <div class="top-info">
+                        <h2 class="state">STATE:<%= state %></h2>
+                        <h4 class="date"><%= date  %> </h4>
+                    </div>
+                   <div class="middle-info">
+                      <h2 class="total">TotalTestResults: <% if(totalTestResults === null){%>
+                            <%="data unavailable"%>
+                         <%}
+                         else{%>
+                           <%= totalTestResults %>    
+                          <%}
+                         %>
+                       </h2>
+                      <h2 class="hospitalized">hospitalized: <% if(hospitalized === null){%>
+                                <%="data unavailable"%>
+                            <%}
+                            else{%>
+                                <%= hospitalized %>    
+                            <%}
+                           %> 
+                         </h2>
+                   </div>
+            </div>
+            <div class="overall-report">
+                <div class="overall_1">
+                    <div class="name">POSITIVE</div>
+                    <div class="value"><% if(positive === null){%>
+                            <%="data unavailable"%>
+                       <%}
+                       else{%>
+                           <%= positive %>    
+                       <%}
+                      %>
+                   </div>
+                </div>
+                <div class="overall_2">
+                    <div class="name">RECOVERED</div>
+                    <div class="value"><% if(recovered === null){%>
+                            <%="data unavailable"%>
+                        <%}
+                        else{%>
+                            <%= recovered %>    
+                        <%}
+                       %>
+                   </div>
+                </div>
+                <div class="overall_3">
+                    <div class="name"> NEGATIVE</div>
+                    <div class="value"><% if(negative === null){%>
+                                <%="data unavailable"%>
+                            <%}
+                            else{%>
+                                <%= negative %>    
+                            <%}
+                           %>
+                        </div>
+                </div>
+                <div class="overall_4">
+                    <div class="name"> DEATHS</div>
+                    <div class="value"><% if(death === null){%>
+                                <%="data unavailable"%>
+                            <%}
+                            else{%>
+                                <%= death %>    
+                            <%}
+                           %>
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

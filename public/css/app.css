@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(253, 233, 233);
+    cursor: default;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+
+.search-container{
+    width: 100%;
+    
+}
+.container{
+    width: 100%;
+
+}
+.display_card{
+    width: 400px;
+    height: 505px;
+    margin: 3em auto auto auto;
+    background: rgb(156, 156, 247);
+    border: 2px solid rgb(129, 129, 223);
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 4px rgb(127, 127, 209) ;
+}
+.current_report{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.overall-report{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns:200px 200px ;
+    grid-template-rows: 100px 100px;
+    column-gap: 1px;
+    row-gap: 5px;
+}
+.overall_1 , .overall_2, .overall_3, .overall_4{
+    background: rgb(100, 100, 185);
+    border-radius: 1em;
+    text-align: center;
+    height: 100px;
+
+}
+.overall_1:hover, .overall_2:hover, .overall_3:hover, .overall_4:hover{
+    border: 2px solid rgb(201, 189, 252);
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: .5em auto .3em auto;
+    color: white;
+}
+.value{
+    font-size: 1rem;
+    color: white;
+}
+.value:hover{
+   font-size: 1.5rem;
+   cursor: default;
+}
+
+.top-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.state{
+    margin: 1em auto .2em 1em;
+    color: white;
+}
+.date{
+    margin: .1em auto auto 1.5em;
+    color: white;
+}
+.date:hover{
+    font-size: 1.3rem;
+}
+.middle-info{
+    width: 80%;
+    margin: 1em auto 1em auto;
+    text-align: left;
+}
+.total{
+    margin: 2em auto .2em auto;
+    color: white;
+}
+.hospitalized{
+    margin: .5em auto 1em auto;
+    color: white;
+}
