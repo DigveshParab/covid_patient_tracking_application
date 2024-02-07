@@ -6,9 +6,7 @@ TrackCovid is a powerful web application developed using React.js, designed to h
 
 1. **Real-time Data Updates**: TrackCovid utilizes reliable data sources to provide users with up-to-date information on COVID-19 cases within their designated area. Users can access real-time statistics, including the number of active cases, recovered cases, and fatalities, enabling them to make informed decisions about their health and safety.
 
-2. **Interactive Map Interface**: The web app features an interactive map interface that allows users to visualize the distribution of COVID-19 cases across different regions. Users can zoom in/out, pan across the map, and view detailed statistics for specific areas, such as cities, neighborhoods, or counties.
-
-3. **Search and Filter Functionality**: TrackCovid offers a powerful search and filter functionality that enables users to quickly locate COVID-19 data for their desired location. Users can search by city, zip code, or geographic coordinates, making it easy to access relevant information tailored to their needs.
+2. **Search and Filter Functionality**: TrackCovid offers a powerful search and filter functionality that enables users to quickly locate COVID-19 data for their desired location. Users can search by city, making it easy to access relevant information tailored to their needs.
 
 ## Data Displayed:
 
